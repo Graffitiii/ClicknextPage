@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+
+.flexform{
+    height: 515px;
+    display: flex;
+    padding-left: 380px;
+    background-image: url(https://image.makewebeasy.net/makeweb/0/m14BHwk4P/Home%2F10_BG_contact_edit_1.jpg?v=202012190947);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 55px;
+    
+}
+
+.formword{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: white;
+    width: 350px;
+}
+
+.formword span{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.gridinput{
+    margin-left: 300px;
+    display: grid;
+}
+
+.inputsize{
+    
+    font-size: 16px;
+    padding-left: 10px;
+    width: 555px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.inputsize:focus{
+    outline: none;
+}
+
+.formcontent{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 10px;
+    min-width: 555px;
+    max-width: 555px;
+    width: 555px;
+    height: 134px;
+    border-radius: 4px;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.formcontent:focus{
+    outline: none;
+}
+
+.buttonform{
+    width: 102.48px;
+    height: 33px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #e1032b;
+    color: #FFF;
+    border: none;
+}
+
+.buttonform:hover{
+        background-color: #FFF;
+        color: #e1032b;
+        cursor: pointer;
+        transition-duration: 0.2s;
+}
+
+.mailicon{
+    vertical-align: -0.2em;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1886px) {
+    .formword{
+        padding-top: 60px;
+        width: 600px;
+    }
+
+    .gridinput{
+        margin-left: 0px;
+    
+    }
+  }
+
+  @media screen and (max-width: 1571px) {
+    .flexform{
+        padding-left: 200px;
+    }
+  }
+
+  @media screen and (max-width: 1360px) {
+    .flexform{
+        padding-left: 100px;
+    }
+
+    .inputsize{
+        width: 400px;
+        max-width: 400px;
+    }
+
+    .formcontent{
+        min-width: 400px;
+        max-width: 400px;
+        width: 400px;
+    }
+  }
+
+@media screen and (max-width: 1120px) {
+    .flexform{
+        padding-left: 50px;
+    }
+
+  }
+
+  @media screen and (max-width: 1060px) {
+    .flexform{
+        padding-left: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 1030px) {
+    .flexform{
+        display: grid;
+        padding-left: 270px;
+        padding-top: 0px;
+        height: 800px;
+        background-size: 100% 780px;
+    }
+
+    .gridinput{
+        padding-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 919px) {
+    .flexform{
+        display: grid;
+        padding-left: 210px;
+        padding-top: 0px;
+        background-size: 100% 780px;
+    }
+
+    .gridinput{
+        width: 400px;
+        padding-left: 10px;
+    }
+
+    .formword{
+        width: 400px;
+        padding-top: 70px;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    .flexform{
+        
+        padding-left: 150px;
+        
+        background-size: 100% 780px;
+    }
+
+    .gridinput{
+        width: 400px;
+        padding-left: 10px;
+    }
+
+    .formword{
+        width: 400px;
+        padding-top: 70px;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .flexform{
+        
+        padding-left: 90px;
+        
+        background-size: 100% 780px;
+    }
+
+    .gridinput{
+        width: 400px;
+        padding-left: 10px;
+    }
+
+    .formword{
+        width: 400px;
+        padding-top: 70px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .flexform{
+        padding-left: 70px;
+    }
+
+    .inputsize{
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .formword{
+        width: 300px;
+        padding-top: 70px;
+        font-size: 26px;
+    }
+
+    .formcontent{
+        min-width: 300px;
+        max-width: 300px;
+        width: 300px;
+    }
+
+    .gridinput{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .flexform{
+        padding-left: 20px;
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.centerI{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.firstI{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .firstI{
+        display: grid;
+    }
+    .margini{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .margini{
+        width: 100%;
+    }
+  }

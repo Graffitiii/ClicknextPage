@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+
+.cardbg{
+    background-image: url('https://image.makewebeasy.net/makeweb/0/m14BHwk4P/Home%2F09__BG.jpg?v=202012190947');
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+}
+
+.newsize{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+    color: #212121;
+    margin: auto;
+}
+
+.cardflex{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    max-width: 370px;
+    height: 500px;
+    border: solid rgb(207, 207, 207) 1px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.card img{
+    margin-top: 20px;
+    width: 100%;
+    height: 190px;
+    border-radius: 4px;
+}
+
+.calendar{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 17px;
+    color: #b8b8b8;
+    margin-left: 20px;
+    width: 210px;
+}
+
+.calendaricon{
+    font-size: 20px;
+    vertical-align: -0.125em;
+}
+
+.cardheader{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 17px;
+    color: #212121;
+    margin-left: 20px;
+    
+}
+
+.cardheader:link{
+    text-decoration: none;
+}
+
+.cardheader:hover {
+    color: #ed3e4b;
+    text-decoration: underline;
+} 
+
+.cardcontent{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 17px;
+    color: #8d939b;
+    margin-left: 20px;
+    width: 330px;
+}
+
+.readmore{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 15px;
+    color: #8d939b;
+    margin-left: 20px;
+}
+
+.readmore:link{
+    text-decoration: none;
+}
+
+.readmore:hover{
+    color: #ed3e4b;
+    text-decoration: underline;
+}
+
+.readmorear{
+    vertical-align: -0.2em;
+}
+
+@media screen and (max-width: 1145px) {
+    .cardflex{
+        margin-top: 20px;
+        display: grid;
+    }
+
+    .card{
+        margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .card{
+        display: grid;
+        margin-left: 0px;
+        height: 450px;
+    }
+  }

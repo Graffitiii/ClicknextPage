@@ -1,0 +1,56 @@
+.centerO{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+}
+
+.ourwork{
+    display: flex;
+    justify-content: center;
+}
+
+.ourwork h1{
+    color: #212121;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ourwork p{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color:rgb(141, 147, 155);
+    width: 550px;
+    margin-left: 450px;
+}
+
+@media screen and (max-width: 1430px) {
+    .ourwork p{
+        font-family: 'Noto Sans Thai', sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        color:rgb(141, 147, 155);
+        width: 550px;
+        margin-left: 300px;
+    }
+  }
+
+@media screen and (max-width: 1050px) {
+    .ourwork p{
+        margin-left: 150px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .ourwork{
+        display: grid;
+    }
+     
+    .ourwork p{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

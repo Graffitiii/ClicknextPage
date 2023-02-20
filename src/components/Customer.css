@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@200&display=swap');
+
+.centerCus{
+    background-color: white;
+    background-image: url('https://image.makewebeasy.net/makeweb/0/m14BHwk4P/Home%2F07__BG.png?v=202012190947');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gridcontent{
+    margin-left: 30px;
+    padding-top: 60px;
+    max-height: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.gridcontent img{
+    width: 100%;
+    max-width: 360px;
+    /* width: 360px; */
+    height: 119.7px;
+}
+
+.cusimg{
+    width: 100%;
+    max-width: 750px;
+    /* width: 750px; */
+    height: 523.61px;
+}
+
+.client{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    color: #e1032b;
+    font-weight: bold;
+}
+
+.success{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    color: #212121;
+    font-weight: bold;
+}
+
+.cust{
+    width: 250px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #8d939b;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 55px;
+}
+
+.bgwhitec{
+    background-color: #ffffff;
+    height: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+    .cusimg{
+        width: 100%;
+        max-width: 480px;
+        /* width: 750px; */
+        height: 320px;
+    }
+
+    .gridcontent{
+        padding-top: 0px; 
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .centerCus{
+        display: grid;
+    }
+  }

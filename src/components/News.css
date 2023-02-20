@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap');
+
+.newsbg{
+    background-image: url('https://image.makewebeasy.net/makeweb/0/m14BHwk4P/Home%2F09__BG.jpg?v=202012190947');
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.bgwhite{
+    background-color: #FFF;
+    height: 60px;
+}
+.topicsize{
+    padding-top: 100px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+    color: #212121;
+    margin: auto;
+}
+
+.flexnewscon{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.imgborder{
+    width: 262.5px;
+    height: 174px;
+    overflow: hidden;
+}
+
+.newscontent{
+    margin-left: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.newscontent img{
+    width: 262.5px;
+    height: 174px;
+    transition: transform .2s;
+}
+
+.newscontent img:hover{
+    transform: scale(1.1);
+    width: 262.5px;
+    height: 174px;
+}
+
+.newscontenttext{
+    padding-top: 20px;
+    width: 250px;
+    font-size: 17px;
+    color: #212121;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.newscontenttext:link{
+    text-decoration: none;
+}
+
+.newscontenttext:hover {
+    color: #ed3e4b;
+} 
+
+.morebutton{
+    margin-top: 30px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 77.31px;
+    height: 33px;
+    border-radius: 25px;
+    border: none;
+    background-color: #e1032b;
+    color: #FFF;
+    transition-duration: 0.2s;
+}
+
+.morebutton:hover{
+    background-color: #FFF;
+    color: #e1032b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .flexnewscon{
+        display: grid;
+    }
+  }
